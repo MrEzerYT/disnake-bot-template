@@ -1,1 +1,1 @@
-# disnake-bot-template
+# Бот для discord на disnake
