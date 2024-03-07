@@ -1,3 +1,0 @@
-import requests
-
-release = True
