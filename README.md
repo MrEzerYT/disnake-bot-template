@@ -38,5 +38,6 @@
 Запуск:
 
 ```bash
-sh start.sh
+cd bot
+screen -dmS bot python3 -m main.py
 ```
