@@ -1,0 +1,7 @@
+disnake
+aiohttp
+psutil
+loguru
+aiosqlite
+YooMoney
+requests
