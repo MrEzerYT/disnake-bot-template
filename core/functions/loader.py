@@ -14,7 +14,7 @@ def ModulesLoader(client, path):
     for module in listdir(path):
         if module.endswith(".py") and not module.startswith("_"):
             try:
-                client.load_extension(f"core.modules.{module[:-3]}"); client.logger.success(f"» Module {module} is loaded!")
+                client.load_extension(f"{path.replace('/', '.')}.{module[:-3]}"); client.logger.success(f"» Module {module} is loaded!")
             except Exception as e:
                 client.logger.error(f"» Module {module} fucked up: {e}")
     client.logger.success("All modules loaded!")
