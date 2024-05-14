@@ -26,4 +26,4 @@ class MyBot(Bot):
         self.functions = functions
         self.config = Config
 
-        functions.ModulesLoader(self)
+        functions.ModulesLoader(self, "core/modules")
