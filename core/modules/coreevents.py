@@ -9,7 +9,7 @@ class CoreEvents(Cog):
         self.bot.logger.info("")
         self.bot.logger.info(f"Bot is loaded as {self.bot.user}")
         self.bot.logger.info(f"Client id {self.bot.user.id}")
-        self.bot.logger.info(f"Developed by https://mrezer.ru (Dan)")
+        self.bot.logger.info(f"Developed by https://ezer.su (Dan)")
         self.bot.logger.info("")
 
 def setup(bot):
